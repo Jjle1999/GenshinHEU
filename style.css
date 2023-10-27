@@ -23,13 +23,13 @@
 }
 
 @keyframes launch {
-    20% {
+    10% {
         background-image: var(--img0);
     }
-    40% {
+    30% {
         background-image: var(--img1);
     }
-    50% {
+    40% {
         background-image: var(--img2);
     }
     90% {
