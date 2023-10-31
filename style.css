@@ -28,7 +28,7 @@
     40% {
         background-image: var(--img1);
     }
-    60%,100% {
+    60%,90% {
         background-image: var(--img2);
     }
 }
