@@ -17,21 +17,18 @@
     background-repeat: no-repeat;
     background-color: #fff;
     animation-name: launch;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 @keyframes launch {
-    10% {
+    15% {
         background-image: var(--img0);
     }
-    50% {
+    40% {
         background-image: var(--img1);
     }
-    90% {
-        background-image: var(--img2);
-    }
     100% {
-        background-image: var(--img0);
+        background-image: var(--img2);
     }
 }
